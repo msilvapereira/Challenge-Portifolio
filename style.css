@@ -29,7 +29,7 @@ a {
     flex-direction: row;
     align-items: center;
     padding: 0.5rem;
-    background-color: var(--cor-de-fundo-menu);
+    background-color: var(--cor-de-fundo);
     justify-content: space-between;
 }
 
@@ -47,6 +47,7 @@ a {
     display: flex;
     flex-direction: row;
     gap: 1rem;  
+    flex-wrap: wrap;
 }
 
 .navegacao__elemento a {
@@ -58,12 +59,43 @@ a {
 }
 /* ------------------------------ Seção Apresentação ------------------------------*/
 
+.apresentacao {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.apresentacao__foto {
+    width: 30%;
+    padding: 2rem;
+}
+
+.redes {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
 
+.sobre-mim {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: #EAF2FD;
+    flex-wrap: wrap;
+}
+
+.sobre-mim__titulo {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
+
 
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
