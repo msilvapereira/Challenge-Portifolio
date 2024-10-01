@@ -26,32 +26,38 @@ a {
 /* ------------------------------ Seção Menu -------------------------------*/
 .cabecalho {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 0.5rem;
     background-color: var(--cor-de-fundo-menu);
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cabecalho__logo {
-    max-width: 80px; /* Ajuste para telas pequenas */
-    margin-left: 15px;
+    max-width: 5rem; /* Ajuste para telas pequenas */
 }
 
 .cabecalho__titulo {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1rem;
+    display: flex;
+    margin-left: 2rem;
 }
 
 .navegacao__lista {
-    display: none;
-    
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;  
 }
 
 .navegacao__elemento a {
     font-size: 0.9rem;
 }
+
+.navegacao__elemento__contato {
+    font-weight: bold;
+}
 /* ------------------------------ Seção Apresentação ------------------------------*/
+
 
 
 /* ------------------------------ Seção Sobre mim ----------------------------------*/
@@ -72,13 +78,16 @@ a {
 /* ------------------------------ Responsividade ---------------------------------------*/
 
 /* Tablets e telas maiores */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .cabecalho {
         flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        gap: 0;
     }
 
     .cabecalho__logo {
-        max-width: 100px;
+        max-width: 80px;
     }
 
     .cabecalho__titulo {
@@ -88,7 +97,6 @@ a {
     .navegacao__lista {
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
         gap: 1rem;
     }
 
@@ -98,15 +106,15 @@ a {
 }
 
 /* Telas grandes */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) { */
     /* Aqui você pode ajustar ainda mais o design para telas grandes */
-    .cabecalho__titulo {
-        font-size: 1.8rem;
-    }
+    /* .cabecalho__titulo {
+        font-size: 1.4rem;
+    } */
 
-    .navegacao__elemento a {
+    /* .navegacao__elemento a {
         font-size: 1rem;
         display: flex;
         align-items: center;
-    }
-}
+    } */
+/* } */
