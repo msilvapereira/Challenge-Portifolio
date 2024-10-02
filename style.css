@@ -116,23 +116,56 @@ a {
     margin: 0;
     grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .habilidades__elemento {
-    padding: 2rem;
+    margin: 0;
+    padding: 3rem;
     background-color: #ffffff;
-    align-content: flex-end
+    
 }
 
 .habilidades__nome {
+    display: flex;
     font-weight: bold;
-    text-align: flex-end;
+    margin: 0;
 }
 
 /*------------------------------ Seção de Hobbies --------------------------------*/
 
+.hobbies {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hobbies__lista {
+    display: grid;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.hobbies__elemento {
+    margin: 0;
+    padding: 3rem;
+    background-color: #ffffff;
+    
+}
+
+.hobbies__nome {
+    display: flex;
+    font-weight: bold;
+    margin: 0;
+}
 
 /*------------------------------ Seção de Projetos --------------------------------*/
 
