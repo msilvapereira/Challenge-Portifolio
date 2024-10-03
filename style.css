@@ -108,6 +108,7 @@ a {
 .habilidades__titulo {
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .habilidades__lista {
@@ -143,6 +144,7 @@ a {
 
 .hobbies__titulo {
     font-size: 2rem;
+    margin-top: 0;
 }
 
 .hobbies__lista {
@@ -176,6 +178,7 @@ a {
 
 .formacao__titulo {
     font-size: 2rem;
+    margin-top: 0;
 }
 
 .formacao__lista {
@@ -195,8 +198,7 @@ a {
 
 .formacao__icone {
     background-color: #ffffff;
-    width: 75%;
-    justify-content: center;
+    width: 70%;
     margin-left: 2rem; 
 }
 
@@ -210,8 +212,26 @@ a {
     margin: 0;
 }
 
+/*------------------------------ Seção de Projetos ---------------------------------*/
+
+.projetos {
+    padding: 2rem;
+    justify-content: center;
+    align-items: center; 
+}
+
+.projetos__titulo {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center; 
+    margin-top: 0;
+}
+
+
+
 
 /*------------------------------ Seção de Contato ---------------------------------*/
+
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
