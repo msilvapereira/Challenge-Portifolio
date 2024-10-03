@@ -143,7 +143,6 @@ a {
 
 .hobbies__titulo {
     font-size: 2rem;
-    font-weight: bold;
 }
 
 .hobbies__lista {
@@ -158,7 +157,6 @@ a {
     margin: 0;
     padding: 3rem;
     background-color: #ffffff;
-    
 }
 
 .hobbies__nome {
@@ -173,14 +171,47 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
-/*------------------------------ Seção de Contato ---------------------------------*/
 .formacao__titulo {
     font-size: 2rem;
-    font-weight: bold;
 }
+
+.formacao__lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.formacao__elemento {
+    margin: 0;
+    padding: 1rem;
+    background-color: #ffffff;  
+}
+
+.formacao__icone {
+    background-color: #ffffff;
+    width: 75%;
+    justify-content: center;
+    margin-left: 2rem; 
+}
+
+.formacao__nome {
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.formacao__detalhe {
+    padding-top: 0.5rem;
+    margin: 0;
+}
+
+
+/*------------------------------ Seção de Contato ---------------------------------*/
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
