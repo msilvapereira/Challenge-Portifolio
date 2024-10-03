@@ -168,10 +168,19 @@ a {
 }
 
 /*------------------------------ Seção de Projetos --------------------------------*/
-
+.formacao {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
 
 /*------------------------------ Seção de Contato ---------------------------------*/
-
+.formacao__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+}
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
