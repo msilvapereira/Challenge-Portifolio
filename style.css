@@ -215,7 +215,7 @@ a {
 /*------------------------------ Seção de Projetos ---------------------------------*/
 
 .projetos {
-    padding: 2rem;
+    padding: 3rem;
     justify-content: center;
     align-items: center; 
 }
@@ -227,7 +227,27 @@ a {
     margin-top: 0;
 }
 
+.projetos__conteiner {
+    display: flex;
+    flex-direction: row;
+} 
 
+.projetos__container {
+    display: flex;
+    padding: 2rem;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos__nome {
+    margin: 0;
+}
+
+.projetos__descricao {
+    margin: 0;
+}
 
 
 /*------------------------------ Seção de Contato ---------------------------------*/
