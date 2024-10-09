@@ -5,6 +5,11 @@
     --cor-do-link: #000000;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: 'Raleway', sans-serif;
@@ -215,7 +220,9 @@ a {
 /*------------------------------ Seção de Projetos ---------------------------------*/
 
 .projetos {
-    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
     justify-content: center;
     align-items: center; 
 }
@@ -238,15 +245,39 @@ a {
     margin: 0;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .projetos__nome {
-    margin: 0;
+    margin-bottom: 0.2rem;
 }
 
 .projetos__descricao {
     margin: 0;
+    padding: 0;
+}
+
+.projetos__botoes {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.projetos__botao {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    background-color: #2A7AE4;
+    border: none;
+    color: #EAF2FD;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.projetos__botao:hover {
+    background-color: #D4E4FA;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
 }
 
 
