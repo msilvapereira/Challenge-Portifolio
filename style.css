@@ -228,60 +228,57 @@ a {
 }
 
 .projetos__titulo {
-    display: flex;
     font-size: 2rem;
-    justify-content: center; 
     margin-top: 0;
 }
 
 .projetos__conteiner {
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
 } 
+
+
 
 .projetos__container {
     display: flex;
-    padding: 2rem;
-    margin: 0;
+    padding: 1rem;
+    margin-top: 1rem;
     flex-direction: column;
     justify-content: center;
 }
 
-.projetos__nome {
-    margin-bottom: 0.2rem;
-}
 
-.projetos__descricao {
-    margin: 0;
-    padding: 0;
-}
-
-.projetos__botoes {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-}
-
-.projetos__botao {
-    margin: 1rem 0.5rem;
-    padding: 1rem;
-    font-family: 'Raleway', sans-serif;
-    cursor: pointer;
+.ver__demo {
     background-color: #2A7AE4;
-    border: none;
+    border: 1px solid #2A7AE4;
     color: #EAF2FD;
-    font-weight: 400;
+    padding: 1rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
-.projetos__botao:hover {
-    background-color: #D4E4FA;
+.ver__repositorio {
+    background-color: #EDEDED;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.projetos__conteiner__decodificador {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 0.6rem;
 }
 
 
 /*------------------------------ Seção de Contato ---------------------------------*/
+
+
 
 
 /* ------------------------------ Responsividade ---------------------------------------*/
