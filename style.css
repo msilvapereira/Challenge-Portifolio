@@ -90,14 +90,13 @@ a {
     display: flex;
     flex-direction: column;
     padding: 4rem;
+    gap: 1rem;
     background-color: #EAF2FD;
-    flex-wrap: wrap;
 }
 
 .sobre-mim__titulo {
     font-size: 2rem;
     font-weight: bold;
-    margin: 0;
 }
 
 /*------------------------------ Seção de Habilidades ------------------------------*/
@@ -113,7 +112,7 @@ a {
 .habilidades__titulo {
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .habilidades__lista {
@@ -149,7 +148,7 @@ a {
 
 .hobbies__titulo {
     font-size: 2rem;
-    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .hobbies__lista {
@@ -183,7 +182,7 @@ a {
 
 .formacao__titulo {
     font-size: 2rem;
-    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .formacao__lista {
@@ -234,11 +233,9 @@ a {
 
 .projetos__conteiner {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin-top: 1rem;
 } 
-
-
 
 .projetos__container {
     display: flex;
@@ -270,16 +267,69 @@ a {
 
 .projetos__conteiner__decodificador {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     margin-top: 0.6rem;
 }
 
-
 /*------------------------------ Seção de Contato ---------------------------------*/
 
+.contato {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0 0 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center; 
+}
 
+.contato__image {
+    width: 34%;
+}
 
+.contato__titulo {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.contato__texto {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.contato__campo {
+    padding: 1rem;
+    /* margin: 0.5rem 0; */
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contato__campo--textarea {
+    resize: none;
+    height: 10rem;
+    border: none;
+    outline: none;
+}
+
+.contato__botao {
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+}
 
 /* ------------------------------ Responsividade ---------------------------------------*/
 
